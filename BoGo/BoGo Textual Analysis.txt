@@ -1,0 +1,19 @@
+BoGo is a Website developed to broadcast live Offers on Items to Consumers.
+
+There are two types of User - consumers and vendors.
+Consumers and Vendors can register an Account free of charge.
+
+There are two types of Items - Goods and Services.
+
+
+Vendors use the Website to add Items to their Inventory. When a Vendor posts an Item, the Vendor must input item data: The quantity of that particular Item in stock, the minimum price at which the Vendor would be willing to sell the Item, the initial price of the Item.
+
+Consumers can browse the Website for Offers on Items. Consumers can signify their interest in an Offer. If the Consumer feels the Offer is of good value, the Consumer can upvote the Offer. If the Consumer feels that the Offer is of poor value, Consumer may downvote the Offer.
+
+When a Consumer wants to take part in an Offer, the Consumer may either start a Cohort or join a Cohort.
+
+Cohorts are groups of Consumers who have joined together to get an Offer on a particular Item. When a Cohort is initialized it has a Timer and an ID. The Timer signifies the amount of time left for more Consumers to join the Cohort, and constantly decrements from the initialization of the Cohort. Whenever another Consumer joins the Cohort, the Timer has time added to it. For every Consumer that joins the Cohort, the overall price of the Item is decreased.
+
+Items have an initial price. Cohorts form to try and decrease this price to the minimum price.
+
+When the Timer on the Cohort runs out, the current price is set as the selling price of the item. The selling price of the item is then processed on the Consumers credit card via PayPal and funds transferred to the BoGo Company for disbursement. Redemption codes with an expiry are then distributed to the Cohort for the Item.
